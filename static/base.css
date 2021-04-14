@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #5cdb95;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  color: #05386b;
+}
+
+.main-navbar {
+  display: grid;
+  grid-template-columns: auto 2fr auto;
+}
+
+.main-nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+
+  margin: auto 10vw;
+}
+
+.main-search {
+  margin: auto;
+  margin-right: 1em;
+}
+
+.logo-header {
+  margin-left: 1em;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 2em;
+}
